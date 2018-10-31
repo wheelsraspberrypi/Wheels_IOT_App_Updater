@@ -1,0 +1,2 @@
+MainPackage=C:\Temp\WheelsAppUpdater\WheelsAppUpdaterProvider\bin\x86\Release\WheelsAppUpdaterProvider_1.0.5.0_x86.appx
+SymbolPackage=C:\Temp\WheelsAppUpdater\WheelsAppUpdaterProvider\AppPackages\WheelsAppUpdaterProvider_1.0.5.0_Test\WheelsAppUpdaterProvider_1.0.5.0_x86.appxsym

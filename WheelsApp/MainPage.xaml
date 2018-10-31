@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="WheelsApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WheelsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Update" Click="Button_Click"  HorizontalAlignment="Left" Height="106" Margin="86,59,0,0" VerticalAlignment="Top" Width="299"/>
+        <TextBlock Name="txtVersion" HorizontalAlignment="Left" Margin="175,217,0,0" Text="Version 1" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="txtOutput" HorizontalAlignment="Left" Margin="86,269,0,0" Text="TextBox" VerticalAlignment="Top" Width="664" Height="160"/>
+        <Button Content="Exit" Click="Exit_Button_Click"  HorizontalAlignment="Left" Height="106" Margin="451,59,0,0" VerticalAlignment="Top" Width="299"/>
+    </Grid>
+</Page>
