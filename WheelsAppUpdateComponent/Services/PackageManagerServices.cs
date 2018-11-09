@@ -9,7 +9,7 @@ using Windows.Management.Deployment;
 namespace WheelsAppUpdateComponent.Services
 {
     public sealed class PackageManagerServices
-    {
+    {        
         public event EventHandler<KeyValuePair<string, object>> MessageEvent;        
         public IAsyncOperation<bool> UpdateAsync(string packageLocation)
         {
